@@ -1,0 +1,18 @@
+//estilos de milligram
+
+@import "~milligram/src/_Color.sass";
+@import "~milligram/src/_Base.sass";
+@import "~milligram/src/_Button.sass";
+@import "~milligram/src/_Form.sass";
+@import "~milligram/src/_Spacing.sass";
+@import "~milligram/src/_Typography.sass";
+
+//mis estilos
+@import "./styles/variables";
+@import "./styles/reset";
+@import "./styles/mixins";
+@import "./styles/global";
+@import "./styles/utilities";
+@import "./styles/components/app";
+@import "./styles/components/appointment";
+@import "./styles/components/form";

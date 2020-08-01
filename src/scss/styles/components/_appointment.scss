@@ -1,0 +1,15 @@
+span:first-child {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.appointment {
+  padding: 1em 2em;
+  background: rgba(155, 77, 202, 0.06);
+  margin-bottom: 3em;
+  border-radius: 0.9rem;
+
+  @include mq($screen-lg-min) {
+    padding: 2em 4em;
+  }
+}
